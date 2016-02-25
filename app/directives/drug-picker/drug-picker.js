@@ -8,6 +8,6 @@ angular.module('myApp.drugPicker', [])
             scope: {
                 meds: '=' // Create an isolate scope to decouple directive from parent scope
             },
-            templateUrl: 'directives/drug-picker/drug-picker.html'
+            templateUrl: 'app/directives/drug-picker/drug-picker.html'
         };
     });
