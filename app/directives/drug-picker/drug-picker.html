@@ -1,0 +1,9 @@
+<ul>
+
+    <div ng-show="isSearchOpen">
+        <input ng-model="query"/>
+        <li ng-repeat="drug in meds.drugs | filter:query | limitTo:5">{{ drug }}</li>
+    </div>
+    <input ng-model="meds.name"/>
+    <button ng-click="isSearchOpen = !isSearchOpen">Browse Catalog</button>
+</ul>

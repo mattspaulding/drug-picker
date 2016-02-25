@@ -1,1 +1,7 @@
-<p>This is the partial for view 1.</p>
+Select Home Med
+<drug-picker meds="homeMed"></drug-picker>
+<br />
+Select Drug Administered
+<drug-picker meds="drugAdministered"></drug-picker>
+<br />
+<div>Summary: This patient is taking <u>{{homeMed.name}}</u> at home and <u>{{drugAdministered.name}}</u> at the hospital.</div>
